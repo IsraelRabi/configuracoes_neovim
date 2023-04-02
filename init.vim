@@ -7,12 +7,12 @@ Plug 'tpope/vim-surround'
 call plug#end()
 
 set nu
-set relativenumber
 set tabstop=4
 set softtabstop=4 expandtab
 set autoindent
 set mouse=a
 set background=dark
+set guicursor=i:block
 syntax on
 
 imap jj <esc>
