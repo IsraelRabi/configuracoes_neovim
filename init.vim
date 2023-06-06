@@ -7,6 +7,7 @@ Plug 'tpope/vim-surround'
 call plug#end()
 
 set nu
+set relativenumber
 set tabstop=4
 set softtabstop=4 expandtab
 set autoindent
@@ -15,15 +16,16 @@ set background=dark
 set guicursor=i:block
 syntax on
 
+set background=dark
+colorscheme gruvbox
+
 imap jj <esc>
 
 let mapleader="\<space>"
 
-colorscheme gruvbox
 
 nnoremap <leader>o :NERDTreeToggle <cr>
 nnoremap <leader>s :w<cr>
 nnoremap <leader>q :q<cr>
 nnoremap <leader>; A;<esc>
 nnoremap <leader><tab> I<tab><esc>
-
