@@ -1,3 +1,4 @@
 require("core.keymaps")
-require("lazy.lazy-config")
+require("core.plugins")
+require("core.plugin_config")
 
