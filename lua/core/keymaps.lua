@@ -7,6 +7,8 @@ vim.opt.shiftwidth = 4
 vim.opt.shiftround = true
 vim.opt.expandtab = true
 
+vim.opt.relativenumber = true
+
 vim.keymap.set('n', '<C- >', '<C-[>')
 vim.keymap.set('i', 'jk', '<C-[>')
 vim.keymap.set('n', '<leader>s', ':w\n')
@@ -17,4 +19,8 @@ vim.keymap.set('n', '<C- >', '<C-[>')
 vim.keymap.set('i', '<C- >', '<C-[>')
 vim.keymap.set('v', '<C- >', '<C-[>')
 vim.keymap.set('c', '<C- >', '<C-[>')
+
+-- change tabs
+vim.keymap.set('n', '<leader>gg', ':tabn<CR>\n')
+vim.keymap.set('n', '<leader>jj', ':tabp<CR>\n')
 
